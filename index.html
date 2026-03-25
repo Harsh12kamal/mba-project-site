@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MBA Digital Marketing Project</title>
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+    color: #1f2933;
+}
+ header {
+    background: linear-gradient(135deg, #1e3a5f, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 40px 10px 30px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.team {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    font-size: 15px;
+}
+
+.team span {
+    padding: 0;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.blog:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+.blog-content {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.blog img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.author {
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.actions span {
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.actions span:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+
+    .blog {
+        flex-direction: column !important;
+        padding: 20px;
+    }
+
+    .blog img {
+        width: 100%;
+    }
+
+    .blog-content {
+        font-size: 16px;
+    }
+
+    nav a {
+        margin: 4px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav a {
+        display: block;
+        margin: 6px 0;
+    }
+
+    .blog {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .blog-content {
+        font-size: 15px;
+    }
+
+    .team {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+</style>
+<meta name="description" content="MBA Digital Marketing Project showcasing blogs on SEO, Social Media, Content Marketing and more.">
+<meta name="author" content="Nishtha Gupta, Khushi Johari, Ritika Kalani, Siddhi Jain, Purvi Saxena">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body >
+<header>
+    <h1>Digital Marketing Project</h1>
+    <p>MBA Blog & Strategy Showcase</p>
+    
+    <div class="team">
+    <span>Nishtha Gupta  : M25MBAG0202</span>
+    <span>Khushi Johari  : M25MBAG0225</span>
+    <span>Ritika Kalani  : M25MBAG0047</span>
+    <span>Siddhi Jain  : M25MBAG0081</span>
+    <span>Purvi Saxena  : M25MBAG0052</span>
+</div>
+    
+</header>
+
+<section>
+
+<!-- BLOG 1 -->
+<div class="blog">
+<div class="blog-content">
+<h3>1. Introduction to Digital Marketing</h3>
+<p class="author">By Nishtha Gupta</p>
+<p>
+Digital marketing has become an essential part of how businesses connect with people in today’s fast-paced, internet-driven world. Unlike traditional marketing, which relies on television, newspapers, or billboards, digital marketing focuses on reaching audiences through online platforms such as websites, search engines, social media, and email. As more people spend time on their smartphones and laptops, businesses are shifting their strategies to meet customers where they are most active.
+
+One of the key advantages of digital marketing is its ability to target specific audiences. Instead of promoting a product to everyone, companies can focus on users based on their age, location, interests, and online behavior. This makes marketing more efficient and increases the chances of converting viewers into customers. For example, a clothing brand can show ads only to users who have searched for fashion-related products.
+Another important feature is measurability. Digital marketing tools allow businesses to track performance in real time. They can see how many people visited their website, clicked on an advertisement, or made a purchase. This data helps in improving strategies and making better decisions.
+<br>
+<br>
+Digital marketing includes various techniques such as search engine optimization (SEO), social media marketing, content marketing, email campaigns, and paid advertising. Each method plays a unique role in building brand awareness and driving engagement.
+In conclusion, digital marketing is not just a trend but a necessity in the modern business environment. It provides flexibility, better targeting, and measurable results. As technology continues to evolve, digital marketing will become even more important for businesses aiming to grow and stay competitive in the market.
+</p>
+
+<div class="actions">
+<span onclick="likePost(1)">👍 <span id="like1">0</span></span>
+<span onclick="dislikePost(1)">👎 <span id="dislike1">0</span></span>
+</div>
+</div>
+
+<img src="images/introduction to marketing.jpg">
+</div>
+
+<!-- BLOG 2 -->
+<div class="blog">
+<div class="blog-content">
+<h3>2. Social Media Marketing</h3>
+<p class="author">By Khushi Johari</p>
+<p>Social media marketing has become one of the most powerful tools for businesses to connect with their audience in today’s digital era. Platforms like Instagram, Facebook, LinkedIn, and Twitter are no longer just for social interaction—they have transformed into important marketing channels where brands can promote their products, share ideas, and build strong relationships with customers.
+
+One of the biggest advantages of social media marketing is direct engagement. Businesses can communicate with their audience in real time through comments, messages, and posts. This interaction helps in building trust and loyalty among customers. When people feel heard and valued, they are more likely to support a brand and recommend it to others.
+<br>
+<br>
+Another important benefit is brand visibility. Regular posting and creative content help businesses stay active in the minds of users. Features like stories, reels, and live sessions make it easier to showcase products in an engaging and interactive way. Even small businesses can reach a large audience without spending huge amounts of money.
+
+Social media platforms also offer targeted advertising options. Businesses can run ads based on user interests, location, and behavior, ensuring that their content reaches the right audience. This improves the effectiveness of marketing campaigns and increases the chances of conversions.
+<br>
+<br>
+However, success in social media marketing requires consistency and creativity. Posting high-quality content, following trends, and interacting with followers regularly are key factors. Simply having a presence is not enough; brands must actively engage and provide value.
+
+In conclusion, social media marketing is an essential part of modern digital strategies. It helps businesses build connections, increase visibility, and drive growth. When used effectively, it can create a strong and lasting impact on a brand’s success.
+</p>
+
+<div class="actions">
+<span onclick="likePost(2)">👍 <span id="like2">0</span></span>
+<span onclick="dislikePost(2)">👎 <span id="dislike2">0</span></span>
+</div>
+</div>
+
+<img src="images/Social media marketing.jpg">
+</div>
+
+<!-- BLOG 3 -->
+<div class="blog">
+<div class="blog-content">
+<h3>3. SEO</h3>
+<p class="author">By Ritika Kalani</p>
+<p>Search Engine Optimization, commonly known as SEO, is a crucial part of digital marketing that focuses on improving a website’s visibility on search engines like Google. Whenever users search for information, products, or services online, search engines display a list of results. SEO helps a website appear higher in these results, increasing the chances of attracting visitors.
+
+One of the main benefits of SEO is that it brings organic traffic, which means visitors come to the website without paid advertisements. This makes SEO a cost-effective and sustainable marketing strategy in the long run. When a website ranks higher, it also builds trust and credibility among users, as people generally prefer to click on top search results.
+<br>
+<br>
+SEO can be divided into two major categories: on-page SEO and off-page SEO. On-page SEO includes optimizing website content, using relevant keywords, improving page speed, and ensuring a good user experience. Off-page SEO involves building backlinks from other websites, which signals search engines that the content is valuable and trustworthy.
+
+Another important aspect of SEO is understanding user intent. Businesses must create content that answers users’ questions and provides useful information. Simply adding keywords is not enough; the content should be meaningful and engaging.
+<br>
+<br>
+Although SEO takes time to show results, it offers long-term benefits. Once a website gains a good ranking, it can maintain its position with consistent effort and updates.
+
+In conclusion, SEO is an essential strategy for any business that wants to grow online. It improves visibility, builds trust, and drives consistent traffic. With proper planning and execution, SEO can significantly contribute to a brand’s digital success.</p>
+
+<div class="actions">
+<span onclick="likePost(3)">👍 <span id="like3">0</span></span>
+<span onclick="dislikePost(3)">👎 <span id="dislike3">0</span></span>
+</div>
+</div>
+
+<img src="images/SEO.jpg">
+</div>
+
+<!-- BLOG 4 -->
+<div class="blog">
+<div class="blog-content">
+<h3>4. Content Marketing</h3>
+<p class="author">By Siddhi Jain</p>
+<p>Content marketing is a strategic approach in digital marketing that focuses on creating and sharing valuable, relevant, and consistent content to attract and engage a target audience. Instead of directly promoting products or services, content marketing aims to provide useful information that helps customers make informed decisions. This approach builds trust and strengthens the relationship between a brand and its audience.
+
+One of the key advantages of content marketing is that it educates and informs users. Businesses create blogs, articles, videos, infographics, and social media posts that address customer needs and interests. When people find content helpful, they are more likely to trust the brand and eventually become customers. For example, a fitness brand may share workout tips or diet plans instead of just advertising products.
+<br>
+<br>
+Content marketing also plays a major role in improving search engine optimization (SEO). High-quality content with relevant keywords helps websites rank better on search engines, bringing more organic traffic. The more valuable and engaging the content is, the higher the chances of it being shared across platforms, increasing reach and visibility.
+
+Consistency is another important factor in content marketing. Regularly publishing fresh and meaningful content keeps the audience engaged and encourages them to return. Businesses must also understand their target audience and create content that matches their preferences and needs.
+<br>
+<br>
+In conclusion, content marketing is not just about selling but about delivering value. It helps build trust, improve online visibility, and create long-term relationships with customers. When done effectively, content marketing becomes a powerful tool for sustainable business growth in the digital world.
+</p>
+
+<div class="actions">
+<span onclick="likePost(4)">👍 <span id="like4">0</span></span>
+<span onclick="dislikePost(4)">👎 <span id="dislike4">0</span></span>
+</div>
+</div>
+
+<img src="images/Content marketing.jpg">
+</div>
+
+<!-- BLOG 5 -->
+<div class="blog">
+<div class="blog-content">
+<h3>5. Email Marketing</h3>
+<p class="author">By Purvi Saxena</p>
+<p>Email marketing is one of the most effective and widely used digital marketing strategies that allows businesses to communicate directly with their audience. It involves sending emails to customers and potential clients to share updates, promotions, newsletters, and important information. Despite the growth of social media, email marketing continues to deliver strong results because it provides a personal and direct way to reach users.
+
+One of the main advantages of email marketing is personalization. Businesses can tailor their messages based on customer preferences, purchase history, and behavior. Personalized emails make customers feel valued and increase the chances of engagement. For example, sending a special discount on a customer’s birthday or recommending products based on past purchases can significantly improve response rates.
+<br>
+<br>
+
+Another important benefit is cost-effectiveness. Compared to other marketing methods, email marketing requires minimal investment while offering a high return on investment (ROI). With the help of automation tools, businesses can schedule emails, manage subscriber lists, and track performance easily. Metrics such as open rates, click-through rates, and conversions help in analyzing the effectiveness of campaigns.
+
+Email marketing is also useful for building long-term relationships with customers. Regular communication keeps the audience informed and connected with the brand. However, it is important to maintain a balance and avoid sending too many emails, as it may lead to user dissatisfaction.
+<br>
+<br>
+In conclusion, email marketing remains a powerful tool in digital marketing. It helps businesses deliver personalized messages, build customer loyalty, and achieve strong results with minimal cost. When used strategically, email marketing can play a key role in overall business growth and success.
+</p>
+
+<div class="actions">
+<span onclick="likePost(5)">👍 <span id="like5">0</span></span>
+<span onclick="dislikePost(5)">👎 <span id="dislike5">0</span></span>
+</div>
+</div>
+
+<img src="images/Email marketing.jpg">
+</div>
+
+<!-- BLOG 6 -->
+<div class="blog">
+<div class="blog-content">
+<h3>6. Video Marketing</h3>
+<p class="author">By Siddhi Jain</p>
+<p>Video marketing is one of the most engaging and impactful forms of digital marketing in today’s online world. It involves using videos to promote products, services, or ideas across platforms such as YouTube, Instagram, Facebook, and websites. With the increasing popularity of short-form content like reels and shorts, video marketing has become an essential strategy for businesses to capture attention quickly and effectively.
+
+One of the biggest advantages of video marketing is its ability to communicate information in a simple and visually appealing way. Videos combine visuals, sound, and storytelling, making it easier for audiences to understand and remember the message. Compared to text or images, videos are more engaging and have a higher chance of being shared, which increases reach and visibility.
+<br>
+<br>
+Another important benefit is emotional connection. Videos allow brands to showcase their personality and connect with viewers on a deeper level. Whether it is a product demonstration, customer testimonial, or behind-the-scenes content, videos help build trust and authenticity. This connection often influences customer decisions and increases brand loyalty.
+
+Video marketing also supports other digital strategies like social media marketing and SEO. Platforms tend to promote video content more, leading to higher engagement rates. Additionally, websites with video content can keep users engaged for longer periods, improving overall performance.
+<br>
+<br>
+However, successful video marketing requires creativity and consistency. Businesses must focus on producing high-quality, relevant, and engaging content that aligns with their target audience’s interests.
+
+In conclusion, video marketing is a powerful tool that enhances communication, builds strong connections, and boosts engagement. As digital consumption continues to grow, video marketing will play an even more important role in shaping successful marketing strategies.
+</p>
+
+<div class="actions">
+<span onclick="likePost(6)">👍 <span id="like6">0</span></span>
+<span onclick="dislikePost(6)">👎 <span id="dislike6">0</span></span>
+</div>
+</div>
+
+<img src="images/Video marketing.jpg">
+</div>
+
+<!-- BLOG 7 -->
+<div class="blog">
+<div class="blog-content">
+<h3>7. Podcast Marketing</h3>
+<p class="author">By Purvi Saxena</p>
+<p>Podcast marketing is an emerging form of digital marketing that uses audio content to promote brands, share knowledge, and connect with audiences. Podcasts are digital audio programs that users can listen to anytime, anywhere, making them a convenient and engaging medium. With the growing popularity of platforms like Spotify and Apple Podcasts, businesses are increasingly using podcasts as a tool to reach their target audience.
+
+One of the key advantages of podcast marketing is its ability to build a strong personal connection with listeners. Since podcasts are usually conversational and storytelling-based, they create a sense of trust and authenticity. Listeners often feel more connected to a brand when they hear real voices, experiences, and discussions rather than just reading text or watching ads.
+<br>
+<br>
+Another benefit is the ability to target a specific audience. Podcasts are often based on niche topics such as business, fitness, technology, or lifestyle. This allows businesses to reach a highly relevant audience that is genuinely interested in the content. As a result, marketing messages become more effective and meaningful.
+
+Podcast marketing is also less intrusive compared to other forms of advertising. Instead of interrupting users, it integrates naturally into the content. Brands can promote their products through sponsorships, guest appearances, or by creating their own podcast series.
+<br>
+<br>
+Consistency and quality content are important for success in podcast marketing. Regular episodes and valuable discussions help in building a loyal listener base over time.
+
+In conclusion, podcast marketing is a powerful and growing strategy in digital marketing. It helps brands build trust, connect with audiences on a deeper level, and deliver meaningful content. As more people turn to audio content, podcast marketing will continue to expand and play a significant role in brand communication.
+</p>
+
+<div class="actions">
+<span onclick="likePost(7)">👍 <span id="like7">0</span></span>
+<span onclick="dislikePost(7)">👎 <span id="dislike7">0</span></span>
+</div>
+</div>
+
+<img src="images/Postcard marketing.jpg">
+</div>
+
+<!-- BLOG 8 -->
+<div class="blog">
+<div class="blog-content">
+<h3>8. PPC Advertising</h3>
+<p class="author">By Khushi Johari</p>
+<p>Pay-Per-Click (PPC) advertising is a popular digital marketing strategy where businesses pay a fee each time a user clicks on their advertisement. Instead of relying on organic traffic, PPC allows companies to buy visits to their website through paid ads displayed on search engines and other online platforms. One of the most commonly used platforms for PPC is Google Ads, where ads appear at the top of search results.
+
+One of the biggest advantages of PPC advertising is that it delivers immediate results. Unlike search engine optimization (SEO), which takes time to show outcomes, PPC campaigns can generate traffic as soon as they are launched. This makes it especially useful for new businesses, product launches, or time-sensitive promotions.
+<br>
+<br>
+Another important benefit is precise targeting. Businesses can choose their audience based on keywords, location, age, interests, and even device type. This ensures that ads are shown to users who are most likely to be interested in the product or service. As a result, PPC advertising often leads to higher conversion rates compared to traditional marketing methods.
+
+PPC also provides measurable results. Marketers can track the number of clicks, impressions, and conversions, allowing them to analyze performance and optimize campaigns. Budget control is another advantage, as businesses can set daily or monthly limits and adjust spending according to their needs.
+<br>
+<br>
+
+However, successful PPC advertising requires proper planning and keyword research. Poorly managed campaigns can lead to wasted spending without achieving desired results.
+
+In conclusion, PPC advertising is a powerful and efficient way to drive traffic and increase sales. With its ability to deliver quick results, target specific audiences, and provide measurable outcomes, PPC remains an essential tool in modern digital marketing strategies.
+</p>
+
+<div class="actions">
+<span onclick="likePost(8)">👍 <span id="like8">0</span></span>
+<span onclick="dislikePost(8)">👎 <span id="dislike8">0</span></span>
+</div>
+</div>
+
+<img src="images/PPC Advertising.jpg">
+</div>
+
+<!-- BLOG 9 -->
+<div class="blog">
+<div class="blog-content">
+<h3>9. Event Marketing</h3>
+<p class="author">By Nishtha Gupta</p>
+<p>Event marketing is a strategy that involves promoting a brand, product, or service through organized events. These events can be conducted either offline, such as trade shows, seminars, and exhibitions, or online in the form of webinars, virtual conferences, and live sessions. Event marketing provides businesses with an opportunity to interact directly with their audience and create meaningful experiences.
+
+One of the biggest advantages of event marketing is personal engagement. Unlike other forms of marketing, events allow face-to-face or real-time interaction with customers. This helps in building trust, answering queries, and creating a stronger emotional connection. When people experience a brand directly, they are more likely to remember it and develop loyalty.
+<br>
+<br>
+Another important benefit is brand visibility. Events provide a platform to showcase products or services to a large audience at once. Businesses can demonstrate their offerings, provide live experiences, and gather instant feedback. This makes event marketing highly effective for product launches and brand promotions.
+
+Event marketing also supports networking opportunities. Companies can connect with potential clients, partners, and industry professionals. This helps in expanding business relationships and opening new opportunities for growth.
+<br>
+<br>
+However, successful event marketing requires careful planning and execution. Factors such as location, audience, promotion, and content must be well-managed to achieve desired outcomes. For online events, engaging content and smooth technical execution are crucial.
+
+In conclusion, event marketing is a powerful strategy that combines promotion with experience. It helps businesses connect directly with their audience, build relationships, and increase brand awareness. When executed effectively, event marketing can leave a lasting impact and contribute significantly to business success.
+</p>
+
+<div class="actions">
+<span onclick="likePost(9)">👍 <span id="like9">0</span></span>
+<span onclick="dislikePost(9)">👎 <span id="dislike9">0</span></span>
+</div>
+</div>
+
+<img src="images/Event Marketing.jpg">
+</div>
+
+<!-- BLOG 10 -->
+<div class="blog">
+<div class="blog-content">
+<h3>10. Guerrilla Marketing</h3>
+<p class="author">By Ritika Kalani</p>
+<p>Guerrilla marketing is a creative and unconventional marketing strategy that focuses on surprising the audience and creating a strong impression using low-cost methods. Unlike traditional marketing, which often requires large budgets and formal campaigns, guerrilla marketing relies on creativity, imagination, and innovation to capture attention. It is usually executed in public places where it can reach a large number of people in an unexpected way.
+
+One of the biggest advantages of guerrilla marketing is its cost-effectiveness. Small businesses and startups can use this strategy to compete with larger brands without spending huge amounts of money. Instead of investing in expensive advertisements, they focus on unique ideas that can go viral and attract attention. For example, creative street art, flash mobs, or interactive installations can quickly gain popularity and generate buzz.
+<br>
+<br>
+Another important benefit is high engagement. Since guerrilla marketing is unexpected and different, it grabs people’s attention instantly. It often encourages people to take photos or videos and share them on social media, which further increases reach. This word-of-mouth promotion plays a crucial role in spreading the message to a wider audience.
+
+However, guerrilla marketing also requires careful planning. The idea must be creative but also appropriate and respectful to avoid negative reactions. It is important to understand the target audience and location before executing the campaign.
+<br>
+<br>
+In conclusion, guerrilla marketing is a powerful and innovative approach that focuses on creativity rather than budget. It helps brands stand out, create memorable experiences, and generate strong engagement. When executed effectively, guerrilla marketing can deliver impressive results and leave a lasting impact on the audience.
+</p>
+
+<div class="actions">
+<span onclick="likePost(10)">👍 <span id="like10">0</span></span>
+<span onclick="dislikePost(10)">👎 <span id="dislike10">0</span></span>
+</div>
+</div>
+
+<img src="images/Guerrilla Marketing.jpg">
+</div>
+
+<!-- BLOG 11 -->
+<div class="blog">
+<div class="blog-content">
+<h3>11. Influencer Marketing</h3>
+<p class="author">By Khushi Johari</p>
+<p>Influencer marketing is a popular digital marketing strategy where brands collaborate with individuals who have a strong presence and following on social media platforms. These individuals, known as influencers, have the ability to affect the opinions and purchasing decisions of their audience. Platforms like Instagram, YouTube, and TikTok have made influencer marketing one of the fastest-growing methods of promotion.
+
+One of the biggest advantages of influencer marketing is trust. Influencers build a loyal relationship with their followers by sharing authentic content, experiences, and recommendations. When they promote a product or service, their audience is more likely to believe it compared to traditional advertisements. This trust leads to higher engagement and better conversion rates.
+<br>
+<br>
+Another important benefit is targeted reach. Influencers usually focus on specific niches such as fashion, fitness, travel, or technology. This allows brands to connect with a highly relevant audience. For example, a fitness brand can collaborate with a fitness influencer to reach people who are already interested in health and wellness.
+
+Influencer marketing is also flexible and creative. Brands can use different formats such as sponsored posts, product reviews, unboxing videos, and live sessions. This variety helps in presenting products in a natural and engaging way.
+<br>
+<br>
+However, choosing the right influencer is crucial. Businesses must consider factors like audience relevance, engagement rate, and authenticity. Collaborating with the wrong influencer may not deliver the desired results.
+
+In conclusion, influencer marketing is a powerful strategy that combines trust, creativity, and targeted reach. It helps brands connect with their audience in a more personal way and drives better engagement. When used effectively, influencer marketing can significantly contribute to brand growth and success.
+</p>
+
+<div class="actions">
+<span onclick="likePost(11)">👍 <span id="like11">0</span></span>
+<span onclick="dislikePost(11)">👎 <span id="dislike11">0</span></span>
+</div>
+</div>
+
+<img src="images/Influencer Marketing.jpg">
+</div>
+
+<!-- BLOG 12 -->
+<div class="blog">
+<div class="blog-content">
+<h3>12. B2B Marketing</h3>
+<p class="author">By Siddhi Jain</p>
+<p>B2B (Business-to-Business) marketing refers to the process where one business promotes and sells its products or services to another business rather than individual consumers. This type of marketing is commonly seen in industries like software, manufacturing, wholesale, and professional services. For example, a company selling accounting software to other businesses is engaging in B2B marketing.
+
+One of the key characteristics of B2B marketing is that the decision-making process is more logical and research-based. Unlike B2C (Business-to-Consumer) marketing, which often focuses on emotions and quick decisions, B2B buyers take time to analyze products, compare options, and evaluate long-term benefits. This means businesses must provide detailed information, case studies, and clear value propositions to convince their clients.
+<br>
+<br>
+Another important aspect is relationship building. B2B marketing focuses on creating long-term partnerships rather than one-time sales. Trust and reliability play a major role, as businesses prefer to work with companies that consistently deliver quality and support. Regular communication, professional service, and strong after-sales support help in maintaining these relationships.
+
+B2B marketing also involves targeted strategies such as email marketing, LinkedIn marketing, content marketing, and direct sales. Since the audience is specific, businesses focus on personalized communication and tailored solutions.
+<br>
+<br>
+In conclusion, B2B marketing is a strategic approach that emphasizes logic, trust, and long-term relationships. It requires detailed planning, strong communication, and a deep understanding of client needs. When executed effectively, B2B marketing helps businesses grow by building valuable and lasting partnerships.
+</p>
+
+<div class="actions">
+<span onclick="likePost(12)">👍 <span id="like12">0</span></span>
+<span onclick="dislikePost(12)">👎 <span id="dislike12">0</span></span>
+</div>
+</div>
+
+<img src="images/B2B Marketing.jpg">
+</div>
+
+<!-- BLOG 13 -->
+<div class="blog">
+<div class="blog-content">
+<h3>13. B2C Marketing</h3>
+<p class="author">By Purvi Saxena</p>
+<p>B2C (Business-to-Consumer) marketing refers to the process where businesses promote and sell their products or services directly to individual customers. This is the most common type of marketing and is used by companies like clothing brands, food delivery apps, and online shopping platforms. The main goal of B2C marketing is to attract customers, influence their buying decisions, and encourage quick purchases.
+
+One of the key features of B2C marketing is its focus on emotions and customer experience. Unlike B2B marketing, where decisions are based on logic and detailed analysis, B2C marketing often appeals to feelings such as happiness, excitement, or desire. Attractive advertisements, discounts, and engaging content play a major role in influencing customers. For example, festive sales or limited-time offers create urgency and encourage people to buy immediately.
+<br>
+<br>
+Another important aspect is wide reach. B2C marketing targets a large audience through channels like social media, television, websites, and mobile apps. Businesses use creative visuals, catchy slogans, and interactive content to grab attention and stand out in a competitive market.
+
+Digital platforms have made B2C marketing more effective by allowing businesses to personalize their messages. Based on user behavior and preferences, companies can show relevant ads and recommendations, improving the chances of conversion.
+<br>
+<br>
+In conclusion, B2C marketing is all about understanding customer needs and delivering value in an engaging way. It focuses on building strong brand connections, creating memorable experiences, and driving sales. When done effectively, B2C marketing helps businesses attract customers and achieve continuous growth in the market.
+</p>
+
+<div class="actions">
+<span onclick="likePost(13)">👍 <span id="like13">0</span></span>
+<span onclick="dislikePost(13)">👎 <span id="dislike13">0</span></span>
+</div>
+</div>
+
+<img src="images/Screenshot 2026-03-25 131950.png">
+</div>
+
+<!-- BLOG 14 -->
+<div class="blog">
+<div class="blog-content">
+<h3>14. Traditional Marketing</h3>
+<p class="author">By Nishtha Gupta</p>
+<p>Traditional marketing refers to the conventional methods of promoting products and services that existed before the rise of digital platforms. It includes offline channels such as television advertisements, radio, newspapers, magazines, billboards, brochures, and direct mail. Even though digital marketing has become more popular, traditional marketing still plays an important role in reaching a wide audience.
+
+One of the main advantages of traditional marketing is its broad reach. Channels like television and newspapers can target a large number of people at once, including those who may not use the internet frequently. For example, advertisements during popular TV shows or large billboards in busy areas can create strong brand visibility and awareness.
+<br>
+<br>
+Another important benefit is credibility. Many people trust traditional forms of advertising more because they are well-established and regulated. Seeing an advertisement in a newspaper or on television often gives a sense of reliability and authenticity to the brand.
+
+Traditional marketing is also effective for local businesses. Methods like pamphlets, banners, and local newspaper ads help in targeting specific geographic areas. This makes it useful for businesses that want to attract nearby customers.
+<br>
+<br>
+However, traditional marketing has some limitations. It is usually more expensive compared to digital marketing and does not provide measurable results easily. Businesses cannot track performance in real time or make quick changes to campaigns.
+
+In conclusion, traditional marketing remains a valuable strategy despite the growth of digital methods. It helps in building brand awareness, reaching a wide audience, and establishing credibility. When combined with digital marketing, it can create a strong and balanced marketing approach for business success.
+</p>
+
+<div class="actions">
+<span onclick="likePost(14)">👍 <span id="like14">0</span></span>
+<span onclick="dislikePost(14)">👎 <span id="dislike14">0</span></span>
+</div>
+</div>
+
+<img src="images/Traditional marketing.jpg">
+</div>
+
+<!-- BLOG 15 -->
+<div class="blog">
+<div class="blog-content">
+<h3>15. Affiliate Marketing</h3>
+<p class="author">By Ritika Kalani</p>
+<p>Affiliate marketing is a performance-based digital marketing strategy where individuals or partners, known as affiliates, promote a company’s products or services and earn a commission for every sale or action generated through their efforts. It is widely used by businesses to increase their reach without investing heavily in advertising, as payment is only made when results are achieved.
+
+One of the main advantages of affiliate marketing is its low risk for businesses. Since companies only pay commissions after a successful sale or lead, it ensures that marketing expenses are directly linked to performance. This makes it a cost-effective strategy, especially for startups and small businesses looking to grow their customer base.
+<br>
+<br>
+Affiliate marketing also benefits the affiliates. Individuals, bloggers, or content creators can earn income by promoting products through websites, social media, or YouTube channels. They share unique affiliate links, and when users click on these links and make a purchase, the affiliate earns a commission. This creates a win-win situation for both businesses and marketers.
+
+Another important aspect is scalability. Businesses can collaborate with multiple affiliates at the same time, allowing them to reach a wider audience across different platforms. Affiliates often promote products in their own style, making the marketing feel more authentic and relatable to their audience.
+<br>
+<br>
+However, success in affiliate marketing requires trust and transparency. Affiliates must promote genuine products to maintain credibility with their audience. Similarly, businesses need to track performance accurately and provide fair commissions.
+
+In conclusion, affiliate marketing is a powerful and flexible marketing strategy that benefits both businesses and affiliates. It helps in expanding reach, increasing sales, and generating revenue in a performance-driven way. When managed properly, affiliate marketing can become a key contributor to long-term business growth.
+</p>
+
+<div class="actions">
+<span onclick="likePost(15)">👍 <span id="like15">0</span></span>
+<span onclick="dislikePost(15)">👎 <span id="dislike15">0</span></span>
+</div>
+</div>
+
+<img src="images/Affiliate Marketing.jpg">
+</div>
+
+
+<!-- 👉 COPY SAME STRUCTURE FOR BLOG 6–15 -->
+
+</section>
+
+<footer>
+<p>© 2026 MBA Digital Marketing Project</p>
+</footer>
+
+<script>
+function likePost(id) {
+    let key = "like" + id;
+    let count = localStorage.getItem(key) || 0;
+    count++;
+    localStorage.setItem(key, count);
+    document.getElementById(key).innerText = count;
+}
+
+function dislikePost(id) {
+    let key = "dislike" + id;
+    let count = localStorage.getItem(key) || 0;
+    count++;
+    localStorage.setItem(key, count);
+    document.getElementById(key).innerText = count;
+}
+
+window.onload = function() {
+    for (let i = 1; i <= 15; i++) {
+        document.getElementById("like"+i).innerText = localStorage.getItem("like"+i) || 0;
+        document.getElementById("dislike"+i).innerText = localStorage.getItem("dislike"+i) || 0;
+    }
+}
+</script>
+
+</body>
+</html>
